@@ -15,12 +15,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-         name: `blog`,
+        name: `blog`,
         path: `${__dirname}/blog`,
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    "gatsby-plugin-mdx",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
